@@ -14,3 +14,9 @@ Microsoft Office applications do not normally execute PowerShell during standard
 ## Status
 Detection logic documented. SPL implementation and tuning will be added incrementally.
 
+
+## SPL Query
+
+The SPL query used to implement this detection is available here:
+
+[spl/office_powershell_obfuscation.spl](../spl/office_powershell_obfuscation.spl)
