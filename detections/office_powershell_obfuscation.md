@@ -19,3 +19,13 @@ Detection logic documented. SPL implementation and tuning will be added incremen
 The SPL query used to implement this detection is available here:
 
 [spl/office_powershell_obfuscation.spl](../spl/office_powershell_obfuscation.spl)
+
+## Severity 
+Serverity is meadium , suspicious beheaviour with potential impact but insufficent confidens to escalte immedieatily .
+
+## Response 
+
+Assgin to soc analyst for investigation , review recent document , activity , monitor for host for additional  suspicious behavior .
+
+## Suppression  
+Server host excluded.  
