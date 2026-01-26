@@ -21,11 +21,14 @@ The SPL query used to implement this detection is available here:
 [spl/office_powershell_obfuscation.spl](../spl/office_powershell_obfuscation.spl)
 
 ## Severity 
-Serverity is meadium , suspicious beheaviour with potential impact but insufficent confidens to escalte immedieatily .
+Severity is Medium, indicating suspicious behavior with potential impact but insufficient confidence to escalate immediately.
 
 ## Response 
 
-Assgin to soc analyst for investigation , review recent document , activity , monitor for host for additional  suspicious behavior .
+Assign to SOC analyst for investigation, review recent document activity, and monitor the host for additional suspicious behavior.
 
 ## Suppression  
-Server host excluded.  
+Server hosts excluded.  
+
+## Review defense 
+Microsoft office do not launch the Powershell in normal ser work da flows , makes this parent-chid realtion rear and indicate malicious document execution . The uses of obfucation is observerd in Powershell , increses the confidense . Noise can be  controlled by the exclusion of the server host . The analyst should investigate the recent activity of the host and reviwe the perivious documents of the host . 
