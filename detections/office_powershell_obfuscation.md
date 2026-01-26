@@ -31,4 +31,4 @@ Assign to SOC analyst for investigation, review recent document activity, and mo
 Server hosts excluded.  
 
 ## Review defense 
-Microsoft office do not launch the Powershell in normal ser work da flows , makes this parent-chid realtion rear and indicate malicious document execution . The uses of obfucation is observerd in Powershell , increses the confidense . Noise can be  controlled by the exclusion of the server host . The analyst should investigate the recent activity of the host and reviwe the perivious documents of the host . 
+Microsoft Office applications do not normally launch PowerShell in standard user workflows, making this parent–child relationship rare and indicative of possible malicious document execution. The use of obfuscation in the PowerShell command line increases confidence in malicious intent. Noise is controlled by excluding server hosts from this detection. The analyst should investigate recent host activity and review previously opened documents for further evidence.
